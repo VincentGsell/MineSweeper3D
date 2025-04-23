@@ -1,8 +1,8 @@
 # MineSweeper3D
 MineSweeper3D - Revisiting mineSweeper to new dimension ;)
 
-![Alt text](/assets/constraintSimpleDemo.gif?raw=true "3D MineSweeper")
-![Alt text](/assets/constraintSimpleDemo.gif?raw=true "Tentatively make a litle game wit it - WIP")
+![Alt text](/_projectDisplay/20250423_Minesweeper3D_VGS_SandBox_Preview.gif?raw=true "3D MineSweeper :)")
+![Alt text](/_projectDisplay/20250423_Minesweeper3D_VGS_Game_Preview.png?raw=true "YAMS game app :)")
 
  - History
 	- 20250423 : Initial.
@@ -27,7 +27,7 @@ https://github.com/orgs/radprogrammer/discussions
 - Several apps :
   - gsMineSweeper : A sandbox for trying components in their environnement.
   - gsMineSweeperTest : Non regression test + sandBox.
-  - gsMineSweeperGame : A 3D game with menu and animation  - Tentatively a "show" to apply component in a an app env. (WARINING : Very WIP)
+  - gsMineSweeperGame : A 3D game "YAMS" aka "Yet Another Minesweeper" with menu and animation  - Tentatively a "show" to apply component in a an app env. (WARINING : Very WIP)
  
 ## Technical note :
 - Use FMX and FMX3d
