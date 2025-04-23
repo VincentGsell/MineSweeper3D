@@ -1,0 +1,535 @@
+object FrameMineSweeperVisualTest: TFrameMineSweeperVisualTest
+  Size.Width = 680.000000000000000000
+  Size.Height = 534.000000000000000000
+  Size.PlatformDefault = False
+  object Selection1: TSelection
+    GripSize = 3.000000000000000000
+    HideSelection = False
+    Proportional = False
+    Position.X = 98.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 517.000000000000000000
+    Size.Height = 401.000000000000000000
+    Size.PlatformDefault = False
+    ShowHandles = True
+    object GridPanelLayout1: TGridPanelLayout
+      Align = Client
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 497.000000000000000000
+      Size.Height = 381.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ColumnCollection = <
+        item
+          Value = 20.000000000000000000
+        end
+        item
+          Value = 20.000000000000000000
+        end
+        item
+          Value = 20.000000000000000000
+        end
+        item
+          Value = 20.000000000000000000
+        end
+        item
+          Value = 20.000000000000000000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = Button2
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = Button3
+          Row = 0
+        end
+        item
+          Column = 2
+          Control = Button4
+          Row = 0
+        end
+        item
+          Column = 3
+          Control = Button5
+          Row = 0
+        end
+        item
+          Column = 4
+          Control = Button6
+          Row = 0
+        end
+        item
+          Column = 0
+          Control = Button7
+          Row = 1
+        end
+        item
+          Column = 1
+          Control = Button8
+          Row = 1
+        end
+        item
+          Column = 2
+          Control = Button9
+          Row = 1
+        end
+        item
+          Column = 3
+          Control = Button10
+          Row = 1
+        end
+        item
+          Column = 4
+          Control = Button11
+          Row = 1
+        end
+        item
+          Column = 0
+          Control = Button12
+          Row = 2
+        end
+        item
+          Column = 1
+          Control = Button13
+          Row = 2
+        end
+        item
+          Column = 2
+          Control = Button14
+          Row = 2
+        end
+        item
+          Column = 3
+          Control = Button15
+          Row = 2
+        end
+        item
+          Column = 4
+          Control = Button16
+          Row = 2
+        end
+        item
+          Column = 0
+          Control = Button17
+          Row = 3
+        end
+        item
+          Column = 1
+          Control = Button18
+          Row = 3
+        end
+        item
+          Column = 2
+          Control = Button19
+          Row = 3
+        end
+        item
+          Column = 3
+          Control = Button20
+          Row = 3
+        end
+        item
+          Column = 4
+          Control = Button21
+          Row = 3
+        end
+        item
+          Column = 0
+          Control = Button22
+          Row = 4
+        end
+        item
+          Column = 1
+          Control = Button23
+          Row = 4
+        end
+        item
+          Column = 2
+          Control = Button24
+          Row = 4
+        end
+        item
+          Column = 3
+          Control = Button25
+          Row = 4
+        end
+        item
+          Column = 4
+          Control = Button26
+          Row = 4
+        end>
+      RowCollection = <
+        item
+          Value = 20.000000000000000000
+        end
+        item
+          Value = 20.000000000000000000
+        end
+        item
+          Value = 20.000000000000000000
+        end
+        item
+          Value = 20.000000000000000000
+        end
+        item
+          Value = 20.000000000000000000
+        end>
+      object Button2: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.400001525878910000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 24
+        Text = 'Button2'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button3: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.400001525878910000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 23
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button4: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.400009155273440000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 22
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button5: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.399993896484380000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 21
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button6: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.399993896484380000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 20
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button7: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.400001525878910000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 19
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button8: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.400001525878910000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 18
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button9: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.400009155273440000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 17
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button10: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.399993896484380000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 16
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button11: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.399993896484380000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 15
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button12: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.400001525878910000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 14
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button13: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.400001525878910000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 13
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button14: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.400009155273440000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 12
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button15: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.399993896484380000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 11
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button16: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.399993896484380000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 10
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button17: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.400001525878910000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 9
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button18: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.400001525878910000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 8
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button19: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.400009155273440000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button20: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.399993896484380000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 6
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button21: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.399993896484380000
+        Size.Height = 66.199996948242190000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button22: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.400001525878910000
+        Size.Height = 66.200012207031250000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button23: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.400001525878910000
+        Size.Height = 66.200012207031250000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button24: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.400009155273440000
+        Size.Height = 66.200012207031250000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button25: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.399993896484380000
+        Size.Height = 66.200012207031250000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+      object Button26: TButton
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 89.399993896484380000
+        Size.Height = 66.200012207031250000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Button3'
+        TextSettings.Trimming = None
+        OnClick = ButtonClick
+      end
+    end
+  end
+end

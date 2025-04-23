@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.356,=E:\DATA\2025_GRIDSYSTEM\Clients\gridSystem\_Apps\gsGames\mineSweeper\mineSweeper\gs.mineSweeper.FMX2D.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.481,=E:\DATA\2025_GRIDSYSTEM\Clients\gridSystem\_Apps\gsGames\mineSweeper\mineSweeper\gs.mineSweeper.FMX.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.773,E:\DATA\2025_GRIDSYSTEM\Clients\gridSystem\_Apps\gsGames\mineSweeper\mineSweeperTest\GS.Game.MineSweeper.Visual.Test.fmx=E:\DATA\2025_GRIDSYSTEM\Clients\gridSystem\_Apps\gsGames\mineSweeper\mineSweeperTest\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.094,=E:\DATA\2025_GRIDSYSTEM\Clients\gridSystem\_Apps\gsGames\mineSweeper\mineSweeperTest\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.098,E:\DATA\2025_GRIDSYSTEM\Clients\gridSystem\_Apps\gsGames\mineSweeper\mineSweeperTest\GS.Game.MineSweeper.Visual.Test.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.773,E:\DATA\2025_GRIDSYSTEM\Clients\gridSystem\_Apps\gsGames\mineSweeper\mineSweeperTest\GS.Game.MineSweeper.Visual.Test.pas=E:\DATA\2025_GRIDSYSTEM\Clients\gridSystem\_Apps\gsGames\mineSweeper\mineSweeperTest\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
