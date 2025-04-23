@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D3927A34-F4A2-4989-8A01-B6DE1B86BB12}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="mineSweeper\gsMineSweeper.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="mineSweeperTest\MinesweeperTest.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="mineSweeperGame\gsMineSweeperGame.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="gsMineSweeper">
+        <MSBuild Projects="mineSweeper\gsMineSweeper.dproj"/>
+    </Target>
+    <Target Name="gsMineSweeper:Clean">
+        <MSBuild Projects="mineSweeper\gsMineSweeper.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="gsMineSweeper:Make">
+        <MSBuild Projects="mineSweeper\gsMineSweeper.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MinesweeperTest">
+        <MSBuild Projects="mineSweeperTest\MinesweeperTest.dproj"/>
+    </Target>
+    <Target Name="MinesweeperTest:Clean">
+        <MSBuild Projects="mineSweeperTest\MinesweeperTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MinesweeperTest:Make">
+        <MSBuild Projects="mineSweeperTest\MinesweeperTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="gsMineSweeperGame">
+        <MSBuild Projects="mineSweeperGame\gsMineSweeperGame.dproj"/>
+    </Target>
+    <Target Name="gsMineSweeperGame:Clean">
+        <MSBuild Projects="mineSweeperGame\gsMineSweeperGame.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="gsMineSweeperGame:Make">
+        <MSBuild Projects="mineSweeperGame\gsMineSweeperGame.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="gsMineSweeper;MinesweeperTest;gsMineSweeperGame"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="gsMineSweeper:Clean;MinesweeperTest:Clean;gsMineSweeperGame:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="gsMineSweeper:Make;MinesweeperTest:Make;gsMineSweeperGame:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
