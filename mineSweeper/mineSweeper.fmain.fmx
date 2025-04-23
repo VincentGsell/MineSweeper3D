@@ -1,0 +1,276 @@
+object Form63: TForm63
+  Left = 0
+  Top = 0
+  Caption = 'Form63'
+  ClientHeight = 802
+  ClientWidth = 1414
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Viewport3D1: TViewport3D
+    Align = Client
+    Camera = Camera1
+    Size.Width = 1414.000000000000000000
+    Size.Height = 802.000000000000000000
+    Size.PlatformDefault = False
+    UsingDesignCamera = False
+    OnMouseDown = Viewport3D1MouseDown
+    OnMouseMove = Viewport3D1MouseMove
+    OnMouseWheel = Viewport3D1MouseWheel
+    object Light1: TLight
+      Color = claWhite
+      LightType = Point
+      SpotCutOff = 180.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 20.000000000000000000
+      Position.Z = -20.000000000000000000
+      Width = 1.000000000000000000
+      Height = 1.000000000000000000
+      Depth = 1.000000000000000000
+    end
+    object DummyXY: TDummy
+      Width = 1.000000000000000000
+      Height = 1.000000000000000000
+      Depth = 1.000000000000000000
+      object DummyXZ: TDummy
+        Width = 1.000000000000000000
+        Height = 1.000000000000000000
+        Depth = 1.000000000000000000
+        object Camera1: TCamera
+          AngleOfView = 45.000000000000000000
+          Position.Z = -5.000000000000000000
+          Width = 1.000000000000000000
+          Height = 1.000000000000000000
+          Depth = 1.000000000000000000
+        end
+      end
+    end
+  end
+  object FloatAnimation8: TFloatAnimation
+    Enabled = True
+    Duration = 0.200000002980232200
+    PropertyName = 'Scale.X'
+    StartValue = 1.000000000000000000
+    StopValue = 1.299999952316284000
+    Trigger = 'IsMouseOver=true'
+    TriggerInverse = 'IsMouseOver=false'
+  end
+  object FloatAnimation9: TFloatAnimation
+    Enabled = True
+    Duration = 0.200000002980232200
+    PropertyName = 'Scale.Y'
+    StartValue = 1.000000000000000000
+    StopValue = 1.299999952316284000
+    Trigger = 'IsMouseOver=true'
+    TriggerInverse = 'IsMouseOver=false'
+  end
+  object LightMaterialSource1: TLightMaterialSource
+    Diffuse = claWhite
+    Ambient = xFF202020
+    Emissive = claNull
+    Specular = xFF606060
+    Shininess = 30
+    Left = 104
+    Top = 232
+  end
+  object Selection2: TSelection
+    GripSize = 3.000000000000000000
+    HideSelection = True
+    Proportional = False
+    Position.X = 250.000000000000000000
+    Position.Y = 150.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 201.000000000000000000
+    Size.PlatformDefault = False
+    ShowHandles = True
+    object Rectangle1: TRectangle
+      Anchors = [akLeft, akTop, akRight]
+      Corners = [TopLeft, TopRight]
+      Fill.Color = claCadetblue
+      HitTest = False
+      Position.X = 8.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 185.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 10.000000000000000000
+      YRadius = 10.000000000000000000
+      object Label4: TLabel
+        StyledSettings = [Family, Size, Style]
+        Position.X = 16.000000000000000000
+        Position.Y = 4.000000000000000000
+        Size.Width = 161.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = claChartreuse
+        Text = '3D MineSweeper Parameters'
+        TabOrder = 0
+      end
+    end
+    object Rectangle2: TRectangle
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      Corners = [BottomLeft, BottomRight]
+      Fill.Color = claCadetblue
+      HitTest = False
+      Opacity = 0.300000011920929000
+      Position.X = 8.000000000000000000
+      Position.Y = 27.000000000000000000
+      Size.Width = 185.000000000000000000
+      Size.Height = 166.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 10.000000000000000000
+      YRadius = 10.000000000000000000
+    end
+    object NumberBox1: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 4
+      Cursor = crIBeam
+      Min = 3.000000000000000000
+      Max = 25.000000000000000000
+      Value = 10.000000000000000000
+      Position.X = 24.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      object Label2: TLabel
+        Position.X = 2.000000000000000000
+        Position.Y = -16.000000000000000000
+        Text = 'Grid'#39's width'
+        TabOrder = 0
+      end
+    end
+    object NumberBox2: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 3
+      Cursor = crIBeam
+      Min = 3.000000000000000000
+      Max = 25.000000000000000000
+      Value = 10.000000000000000000
+      Position.X = 24.000000000000000000
+      Position.Y = 88.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      object Label3: TLabel
+        Position.X = 2.000000000000000000
+        Position.Y = -15.000000000000000000
+        Text = 'Grid'#39's Height'
+        TabOrder = 0
+      end
+    end
+    object NumberBox3: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 2
+      Cursor = crIBeam
+      Min = 3.000000000000000000
+      Max = 30.000000000000000000
+      Value = 5.000000000000000000
+      Position.X = 24.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      object Label1: TLabel
+        Position.Y = -16.000000000000000000
+        Text = 'Mine'#39's count'
+        TabOrder = 0
+      end
+    end
+    object SpeedButton1: TSpeedButton
+      Position.X = 88.000000000000000000
+      Position.Y = 158.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Apply'
+      TextSettings.Trimming = None
+      OnClick = SpeedButton1Click
+      object Rectangle5: TRectangle
+        Align = Client
+        Fill.Kind = None
+        HitTest = False
+        Size.Width = 80.000000000000000000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+        XRadius = 10.000000000000000000
+        YRadius = 10.000000000000000000
+      end
+    end
+  end
+  object Selection3: TSelection
+    GripSize = 3.000000000000000000
+    HideSelection = True
+    Proportional = False
+    Position.X = 50.000000000000000000
+    Position.Y = 50.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 201.000000000000000000
+    Size.PlatformDefault = False
+    ShowHandles = True
+    object Rectangle3: TRectangle
+      Anchors = [akLeft, akTop, akRight]
+      Corners = [TopLeft, TopRight]
+      Fill.Color = claCadetblue
+      HitTest = False
+      Position.X = 8.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 185.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 10.000000000000000000
+      YRadius = 10.000000000000000000
+      object Label5: TLabel
+        StyledSettings = [Family, Size, Style]
+        Position.X = 16.000000000000000000
+        Position.Y = 4.000000000000000000
+        Size.Width = 161.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = claChartreuse
+        Text = 'Mine Sweeper'#39's project'
+        TabOrder = 0
+      end
+    end
+    object Rectangle4: TRectangle
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      Corners = [BottomLeft, BottomRight]
+      Fill.Color = claCadetblue
+      HitTest = False
+      Opacity = 0.300000011920929000
+      Position.X = 8.000000000000000000
+      Position.Y = 27.000000000000000000
+      Size.Width = 185.000000000000000000
+      Size.Height = 166.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 10.000000000000000000
+      YRadius = 10.000000000000000000
+    end
+    object Button2: TButton
+      Anchors = [akLeft, akTop, akRight]
+      Position.X = 15.000000000000000000
+      Position.Y = 33.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Start 3D MineSweeper'
+      TextSettings.Trimming = None
+      OnClick = Button2Click
+    end
+    object Button1: TButton
+      Anchors = [akLeft, akTop, akRight]
+      Position.X = 16.000000000000000000
+      Position.Y = 58.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Start 2D MineSweeper'
+      TextSettings.Trimming = None
+      OnClick = Button1Click
+    end
+  end
+end
