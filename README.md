@@ -1,6 +1,19 @@
 # MineSweeper3D
 MineSweeper3D - Revisiting mineSweeper to new dimension ;)
 
+![Alt text](/assets/constraintSimpleDemo.gif?raw=true "3D MineSweeper")
+![Alt text](/assets/constraintSimpleDemo.gif?raw=true "Tentatively make a litle game wit it - WIP")
+
+ - History
+	- 20250423 : Initial.
+
+- main features : 
+ 	- MineSweeper basic feature :
+  - grids(width and heigh) and mine's count parameters
+  - 2D and 3D component, with same logic behind.
+  - SOLID design aproach.
+  
+ 
 ## 2025, April : MineSweeper Context
 https://github.com/orgs/radprogrammer/discussions
 
@@ -23,3 +36,9 @@ https://github.com/orgs/radprogrammer/discussions
     - Simple workaround consist to remove this unit and replace TLightMaterialSource by standart TTextureMaterialSource. This replacement will certainly break the visual of geMineSweeperGame.
 - Use FMXAnimation techniques.
 
+
+- Credits :
+  - Sponsored by GRID System (https://github.com/GRIDSystemSAS)
+  - Music "steampunk-pirates-289789" by Crissa, on PixaBay
+  - Execute.TransparentTexture.pas unit by Paul Toth (https://github.com/tothpaul)
+     
