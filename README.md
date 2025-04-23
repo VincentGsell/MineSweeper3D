@@ -1,3 +1,9 @@
+[![](https://tokei.rs/b1/github/VincentGsell/MineSweeper3D?category=code)](https://github.com//VincentGsell/GS.Bus)
+[![](https://tokei.rs/b1/github/VincentGsell/MineSweeper3D?category=files)](https://github.com//VincentGsell/GS.Bus)
+[![](https://tokei.rs/b1/github/VincentGsell/MineSweeper3D?category=lines)](https://github.com//VincentGsell/GS.Bus)
+[![](https://tokei.rs/b1/github/VincentGsell/MineSweeper3D?category=blanks)](https://github.com//VincentGsell/GS.Bus)
+[![](https://tokei.rs/b1/github/VincentGsell/MineSweeper3D?category=comments)](https://github.com//VincentGsell/GS.Bus)
+
 # MineSweeper3D
 MineSweeper3D - Revisiting mineSweeper to new dimension ;)
 
