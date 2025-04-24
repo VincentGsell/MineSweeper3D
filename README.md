@@ -37,15 +37,14 @@ https://github.com/orgs/radprogrammer/discussions
  
 ## Technical note :
 - Use FMX and FMX3d
-- Use opensource FMX Shader frome Toth Paul - Thx to him - https://github.com/tothpaul/Delphi.proctree (unit Execute.TransparentTexture.pas) 
-    - Due to the user af this unit, This app will (certainly)( not work on Mobile due to use this shader, but if anyone is interested, we can adpat it to make it compile on all platform.
+- Use opensource FMX Shader from Toth Paul - Thx to him - https://github.com/tothpaul/Delphi.proctree (unit Execute.TransparentTexture.pas) 
+    - Due to the user of this unit, This app will (certainly) not work on Mobile due to use of this shader, but if anyone is interested, we can adpat it to make it compile on all platform.
     - Simple workaround consist to remove this unit and replace TLightMaterialSource by standart TTextureMaterialSource. This replacement will certainly break the visual of geMineSweeperGame.
 - Use FMXAnimation techniques.
 
 
 - Credits :
   - Sponsored by GRID System (https://github.com/GRIDSystemSAS)
-  
   - Music "steampunk-pirates-289789" by Crissa, on PixaBay (https://pixabay.com/music/main-title-steampunk-pirates-289789/)
   - Execute.TransparentTexture.pas unit by Paul Toth (https://github.com/tothpaul)
   - 🙌 Support the Project If you enjoy this work
